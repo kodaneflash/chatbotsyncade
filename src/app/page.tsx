@@ -22,9 +22,10 @@ export default function Home() {
         An intelligent note-taking app with AI integration, built with OpenAI,
         Pinecone, Next.js, Shadcn UI, Clerk, and more.
       </p>
-      <Button size="lg" asChild>
-        <Link href="/notes">Open</Link>
+      <Button size="lg">
+      <Link href="/notes" legacyBehavior>Open</Link>
       </Button>
+
     </main>
   );
 }
