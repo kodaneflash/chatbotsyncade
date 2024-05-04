@@ -7,7 +7,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  titleade: "Syncade",
+  title: "Syncade",
   description: "An intelligent AI-assisted note-taking app",
 };
 
