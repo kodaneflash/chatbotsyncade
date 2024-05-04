@@ -11,9 +11,7 @@ export default function Home() {
   if (userId) redirect("/notes");
 
   return (
-    <main className="flex h-screen flex-col items-center justify-center gap-5">
-      <div className="flex items-center gap-4">
-        <Image src={logo} alt="FlowBrain logo" width={100} height={100} />
+<Link href="/notes" legacyBehavior>Open</Link>
         <span className="text-4xl font-extrabold tracking-tight lg:text-5xl">
           Syncade
         </span>
